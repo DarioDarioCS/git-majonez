@@ -1,0 +1,49 @@
+ 1773  git init
+ 1774  ls -la
+ 1775  vim main.cpp
+ 1776  ls
+ 1777  g++ main.cpp -o a
+ 1778  ./a
+ 1779  git status -s
+ 1780  git add main.cpp
+ 1781  git commit -m "Initial commit"
+ 1782  vim main.cpp
+ 1783  g++ main.cpp -o a
+ 1784  ./a
+ 1785  git status -s
+ 1786  git add -u
+ 1787  git commit -m "Farewell changed"
+ 1788  git remote add origin https://github.com/DarioDarioCS/git-majonez.git
+ 1789  git push -u origin master
+ 1790  git branch
+ 1791  git branch cs
+ 1792  git branch
+ 1793  git log
+ 1794  git checkout cs
+ 1795  git log
+ 1796  git reset --hard HEAD~1
+ 1797  git log
+ 1798  vim main.cpp
+ 1799  git diff
+ 1800  g++ main.cpp -o a
+ 1801  ./a
+ 1802  git diff
+ 1803  git add -u
+ 1804  git commit -m "Greetings"
+ 1805  git log
+ 1806  git push origin cs
+ 1807  git checkout master
+ 1808  git merge cs
+ 1809  vim main.cpp
+ 1810  git diff
+ 1811  g++ main.cpp -o a
+ 1812  ./a
+ 1813  git status -s
+ 1814  git add main.cpp
+ 1815  git status -s
+ 1816  git commit -m "Merge branch 'cs'
+ 1817  git commit -m "Merge branch 'cs'"
+ 1818  git merge --status
+ 1819  git merge --continue
+ 1820  l
+ 1821  history > history.txt
