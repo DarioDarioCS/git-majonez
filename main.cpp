@@ -3,7 +3,7 @@
 int main(void)
 {
     using namespace std;
-    cout << "Goodbye World" << endl;
+    cout << "Goodbye Coders School" << endl;
     return 0;
 }
 
