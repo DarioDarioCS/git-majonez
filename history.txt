@@ -1,3 +1,5 @@
+ 1771  mkdir git-majonez
+ 1772  cd git-majonez
  1773  git init
  1774  ls -la
  1775  vim main.cpp
